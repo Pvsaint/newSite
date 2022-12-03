@@ -25,10 +25,6 @@ body {
   scroll-behavior: smooth;
 }
 
-// body * {
-//     transition: all .4s;
-// }
-
 a {
   text-decoration: none;
   color: #17a2b8;
@@ -670,7 +666,7 @@ textarea {
   }
 
   #postLink {
-    width: 90px;
+    width: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;

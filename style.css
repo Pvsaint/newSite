@@ -644,7 +644,7 @@ textarea {
   color: #4b5156;
 }
 .post-wrapper #postLink {
-  width: 90px;
+  width: 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
