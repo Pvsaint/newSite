@@ -12,7 +12,8 @@
   --mobileMenu: #000;
 }
 
-html, body {
+html,
+body {
   padding: 0;
   margin: 0;
   scroll-behavior: smooth;
@@ -51,13 +52,24 @@ h6 {
   font-size: 16px;
 }
 
-h1, h2, h3, h4, h5, h6, strong {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong {
   color: var(--mainText);
   font-family: "Russo One", sans-serif;
   font-weight: 500;
 }
 
-p, li, span, label, input, textarea {
+p,
+li,
+span,
+label,
+input,
+textarea {
   color: var(--mainText);
   font-family: "Roboto Mono", monospace;
 }
@@ -306,13 +318,13 @@ p, li, span, label, input, textarea {
   box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
 }
 .nav-wrapper .dots-wrapper #dot-1 {
-  background-color: #FC6058;
+  background-color: #fc6058;
 }
 .nav-wrapper .dots-wrapper #dot-2 {
   background-color: #fec02f;
 }
 .nav-wrapper .dots-wrapper #dot-3 {
-  background-color: #2ACA3E;
+  background-color: #2aca3e;
 }
 .nav-wrapper #navigation {
   margin: 0;
@@ -544,7 +556,8 @@ p, li, span, label, input, textarea {
   justify-content: space-around;
 }
 .social-links .link-wrapper .bi {
-  color: white;
+  color: var(--btnColor);
+  text-shadow: 0 3px 7px var(--btnColor);
 }
 
 .animate {
@@ -629,6 +642,26 @@ p, li, span, label, input, textarea {
 }
 .post-wrapper #post .post-intro {
   color: #4b5156;
+}
+.post-wrapper #postLink {
+  width: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.4s;
+}
+.post-wrapper #postLink:hover {
+  width: 130px;
+  transition: 0.4s;
+}
+.post-wrapper #postLink:hover > .bi {
+  opacity: 1;
+  transition: 0.4s;
+}
+.post-wrapper #postLink .bi {
+  font-size: 25px;
+  opacity: 0;
+  transition: 0.4s;
 }
 
 .hidden {

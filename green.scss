@@ -1,18 +1,42 @@
 :root {
-    --mainColor: #606b56;
-    --secondaryColor: #515a48; 
+  --mainColor: #606b56;
+  --secondaryColor: #515a48;
 
-    --borderColor: #202b19;
+  --borderColor: #202b19;
 
-    --mainText: #fff;
-    --secondaryText: #eeeeee; 
+  --mainText: #fff;
+  --secondaryText: #eeeeee;
 
-    --themeDotBorder: #fff;
+  --themeDotBorder: #fff;
 
-    --previewBg: rgba(81, 90, 72, 0.8);
-    --previewShadow: #2a2f25;
+  --previewBg: rgba(81, 90, 72, 0.8);
+  --previewShadow: #2a2f25;
 
-    --btnColor: #669966;
+  --btnColor: #669966;
 
-    --mobileMenu: #fff;
+  --mobileMenu: #fff;
+}
+
+.social-links {
+  display: grid;
+  align-items: center;
+  text-align: center;
+
+  #social_img {
+    width: 100%;
+  }
+
+  .link-wrapper {
+    width: 50%;
+    margin: auto;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    .bi {
+      color: white;
+      text-shadow: 0 5px 10px var(--previewShadow);
+    }
+  }
 }
